@@ -16,7 +16,7 @@ syntax on
 " 设置与系统共享粘贴板
 set clipboard=unnamed
 " 设置字体
-set guifont=Courier_New:h9:cANSI
+set guifont=inziu_iosevka_sc:h15
 set ai                "autoindent（继承前一行的缩进方式，适用于多行注释）  
 set si                "smartindent（为C程序提供自动缩进）  
 set cindent            "C风格缩进  
@@ -88,6 +88,8 @@ set cmdheight=2
 set vb t_vb=
 " 将F3 设置为打开文件夹的快捷键
 map <F3> :NERDTreeToggle<CR>
+map <F4> :vs ~/.vimrc<CR>
+map <F5> :source ~/.vimrc<CR>
 "窗口位置 
 "let g:NERDTreeWinPos='left' 
 "窗口是否显示行号
@@ -95,4 +97,3 @@ let g:NERDTreeShowLineNumbers=1
 "设置初始的行数和列数
 set lines=40
 set columns=120
-map <F3> :NERDTreeToggle<CR>
