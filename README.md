@@ -11,7 +11,7 @@ vim配置
 #### 使用说明
 ```shell
 git clone https://gitee.com/MrWangJunjun/vim_configuration.git
-cd vim_config
+cd vim_configuration
 sudo chmod +x start.sh
 sudo ./start
 ```
